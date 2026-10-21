@@ -1,0 +1,24 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install Lua 5.1
+        run: sudo apt-get update && sudo apt-get install --yes lua5.1
+
+      - name: Validate addon
+        run: bash tools/validate.sh
+
+      - name: Run tests
+        run: lua5.1 tests/test_short_combat_text.lua

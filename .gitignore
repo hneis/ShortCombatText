@@ -1,0 +1,4 @@
+/artifacts/
+/.local/
+*.log
+*.zip

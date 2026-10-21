@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: Short Combat Text
+## Notes: Short English combat outcome labels for WoW Forever
+## Author: OpenAI
+## Version: 1.3.0
+## X-Category: Combat
+
+ShortCombatText.lua

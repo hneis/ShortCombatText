@@ -1,0 +1,27 @@
+{
+  "runtime.version": "Lua 5.1",
+  "runtime.builtin": {
+    "debug": "disable",
+    "io": "disable",
+    "os": "disable",
+    "package": "disable"
+  },
+  "workspace.checkThirdParty": false,
+  "workspace.library": [
+    "../.references/generated",
+    "../.references/FramexmlAnnotations/Annotations"
+  ],
+  "workspace.ignoreDir": [
+    ".git",
+    "artifacts"
+  ],
+  "diagnostics.globals": [
+    "BLOCK",
+    "BLOCK_TRAILER",
+    "COMBAT_TEXT_BLOCK",
+    "COMBAT_TEXT_BLOCK_REDUCED",
+    "COMBAT_TEXT_MISS",
+    "SlashCmdList"
+  ],
+  "telemetry.enable": false
+}
