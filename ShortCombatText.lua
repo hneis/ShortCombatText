@@ -44,6 +44,7 @@ local replacements = {
     COMBAT_TEXT_HONOR_GAINED = "Honor %s",
     COMBAT_TEXT_COMBO_POINTS = "<%d Combo |4Point:Points;>",
     COMBAT_TEXT_RUNE_DEATH = "Rune",
+    XP_GAIN = "XP:%s",
 
     COMBAT_THREAT_DECREASE_0 = "Changed Target!",
     COMBAT_THREAT_DECREASE_1 = "Changed Target!",
@@ -109,5 +110,6 @@ SlashCmdList.SHORTCOMBATTEXTDEBUG = function()
     print("BLOCK_TRAILER =", tostring(_G.BLOCK_TRAILER))
     print("COMBAT_THREAT_INCREASE_1 =", tostring(_G.COMBAT_THREAT_INCREASE_1))
     print("COMBAT_THREAT_INCREASE_3 =", tostring(_G.COMBAT_THREAT_INCREASE_3))
+    print("XP_GAIN =", tostring(_G.XP_GAIN))
     print("Riposte message hook =", originalCombatTextAddMessage and "installed" or "waiting")
 end

@@ -91,6 +91,7 @@ local expectedGlobals = {
     COMBAT_TEXT_HONOR_GAINED = "Honor %s",
     COMBAT_TEXT_COMBO_POINTS = "<%d Combo |4Point:Points;>",
     COMBAT_TEXT_RUNE_DEATH = "Rune",
+    XP_GAIN = "XP:%s",
     COMBAT_THREAT_DECREASE_0 = "Changed Target!",
     COMBAT_THREAT_DECREASE_1 = "Changed Target!",
     COMBAT_THREAT_DECREASE_2 = "Losing Threat",
